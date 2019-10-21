@@ -10,10 +10,6 @@ namespace CreateClass
         public DateTime BirthDate { get; }
         public GendersEnum Gender { get; }
                
-        public Person()
-        {
-        }
-
         public Person(string name, DateTime birthDate, String gender)
         {
             Name = name;

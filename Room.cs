@@ -1,13 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CreateClass
 {
-    class Room : Employee
+    public class Room 
     {
-        public int RoomNumber { get; set; }
+        public int Number { get; set; }
+
+        public Room(int number)
+        {
+            Number = number;
+        }
     }
+
 }
